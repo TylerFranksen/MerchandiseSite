@@ -1,0 +1,98 @@
+/*Load google font*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+
+
+/* Reset Styles */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #debcc8;
+  }
+  
+  h1 {
+    vertical-align: top;
+    background-color: #FFB6C1;
+    color: #E13F79;
+    font-weight: 600;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 15px 25px;  
+  }
+  .SiteDescBody {
+    background-color: #FFB6C1;
+    max-width: 74.9%;
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 5px;
+    line-height: 55px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .payment-field {
+    margin: 20px;
+  }
+  
+  .payment-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #FFB6C1;
+    color: #E13F79;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+  }
+
+  .payment-link {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+  }  
+  
+  .payment-window {
+    display: none; /* Hide all payment windows by default */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #FFB6C1;
+  }
+
+  .payment-window .window-title {
+    display: block; /* Display the window title */
+    color: #333;
+  }
+  
+  .payment-window h2 {
+    display: none; /* Hide the text within payment windows by default */
+  }
+
+  .paypal.Buttons {
+    align-items: center;
+  }
